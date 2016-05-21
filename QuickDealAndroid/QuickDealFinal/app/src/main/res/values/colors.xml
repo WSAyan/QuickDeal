@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#2E7D32</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+
+    <color name="grid_bg">#000000</color>
+
+    <color name="grid_item_bg">#1a1b1d</color>
+
+    <color name="action_bar">#141416</color>
+
+    <color name="action_bar_title">#ffffff</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="settings_label">#323232</color>
+
+    <color name="orange">#ffffdc7e</color>
+
+    <color name="grey">#ffd3d3d3</color>
+
+    <color name="green">#ff8dd304</color>
+
+    <color name="blue">#ff82e0ff</color>
+
+    <color name="yellow">#fffffbae</color>
+
+    <color name="red">#fff10800</color>
+
+
+</resources>

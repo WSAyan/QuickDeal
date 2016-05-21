@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_explore"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Explore" />
+
+        <item android:id="@+id/nav_post_ad"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Post Ad" />
+
+        <item android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_menu_favorite"
+            android:title="Favorites" />
+
+        <item android:id="@+id/nav_my_ad"
+            android:icon="@android:drawable/ic_menu_crop"
+            android:title="My Posts" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+
+            <item android:id="@+id/nav_Log_in"
+                android:icon="@drawable/ic_menu_login"
+                android:title="Log In" />
+
+            <item android:id="@+id/nav_Log_out"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="Log Out" />
+
+            <item android:id="@+id/nav_about_app"
+                android:icon="@drawable/ic_menu_about"
+                android:title="About" />
+
+        </menu>
+    </item>
+
+</menu>

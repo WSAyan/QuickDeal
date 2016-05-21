@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.limit.quickdealfinal.Activity.Activity.DetailActivity"
+    tools:showIn="@layout/activity_detail">
+
+
+    <RelativeLayout
+        android:id="@+id/nicher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:id="@+id/call_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="54dp"
+            android:layout_marginRight="54dp"
+            android:layout_toLeftOf="@+id/message_btn"
+            android:layout_toStartOf="@+id/message_btn"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/call"
+            app:layout_collapseMode="parallax" />
+
+        <ImageButton
+            android:id="@+id/message_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="96dp"
+            android:layout_marginRight="96dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/sms" />
+
+        <TextView
+            android:id="@+id/p_txtview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:textStyle="bold"
+            android:text="Price:"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/price_txtview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/p_txtview"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:text="Price"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/d_txtview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/price_txtview"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:text="Description:"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/detail_txtview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/d_txtview"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:text="bla"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>
